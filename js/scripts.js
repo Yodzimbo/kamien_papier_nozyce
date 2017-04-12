@@ -91,7 +91,7 @@ function checkRoundWinner(playerPick, computerPick) {
     } else if (
         (computerPick == 'kamien' &&  playerPick == 'nozyce') ||
         (computerPick == 'nozyce' &&  playerPick == 'papier') ||
-        (computerPick == 'papier' &&  playerPick == 'kamin') ) {
+        (computerPick == 'papier' &&  playerPick == 'kamien') ) {
         
         winnerIs = 'computer';
     }
